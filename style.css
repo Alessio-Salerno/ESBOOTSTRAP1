@@ -1,0 +1,62 @@
+ul{
+    list-style-type: none;
+}
+
+.link{
+text-decoration: none;
+cursor:alias;
+color: black;
+margin-right: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.head{
+height: 100vh;
+}
+
+nav{
+    position:sticky;
+    top: 0px;
+}
+
+.title{
+    margin-top: 3px;
+}
+
+.foto{
+   width: 350px;
+   height: 270px;
+   border-radius: 5px;
+   border: 2px solid black;
+}
+
+.titolo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:680px) {
+    .foto{
+        margin-left: 12px;
+    }
+    .titolo{
+        width: auto;
+    }
+}
